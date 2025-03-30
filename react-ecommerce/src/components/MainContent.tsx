@@ -9,7 +9,7 @@ function MainContent() {
     const [products,setProducts] = useState<any[]>([])
     const [filter, setFilter] = useState("all")
     const [currentPage,setCurrentPage] = useState(1)
-    const [dropdownOpen, setDropdownOpen] = useState(true)
+    const [dropdownOpen, setDropdownOpen] = useState(false)
     const itemsPerPage = 12
 
     useEffect(()=>{
